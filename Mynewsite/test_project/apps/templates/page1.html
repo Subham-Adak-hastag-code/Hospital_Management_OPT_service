@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital_management</title>
+    <!--box icons css-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--custom css-->
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'style.css'%}"/>
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">MEDINOVA</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="login">Sign in</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#apps">Apps</a>
+            <a href="#service">Service</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome To madinova</h3>
+            <h1>Doctor Name</h1>
+            <h3> <span>Cardiology Specialist</span></h3>
+            <p>A cardiologist is a physician who's an expert in the care of your heart and blood vessels. They can treat or help you prevent a number of cardiovascular problems.</p>
+            <div class="social-midea">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="bth">Find Doctor</a>
+        </div>
+        <div class="home-img">
+            <img src="{% static 'images/images_1.jpeg' %}" alt="">
+        </div>
+    </section>
+    
+    <!--doctor design-->
+    <section class="about" id="about">
+        <div class="doctor-img">
+            <img src="{% static 'images/images_2.jpeg' %}" alt="">
+        </div>
+        <div class="doctor-content">
+            <h2 class="heading">About<span>Us</span></h2>
+            <h3>Limited seats available!</h3>
+            <p>This online MBA in Healthcare Management aims at upskilling and updating professionals with the latest developments in the field of healthcare management.
+                Learn health informatics, hospital planning & infrastructure management, and other key subjects to become a future-ready professional.</p>
+                <a href="#" class="bth">Read More</a>
+        </div>
+    </section>
+
+    <!--apps section design-->
+    <section class="apps" id="apps">
+        <h2 class="heading">Our<span>apps</span></h2>
+
+        <div class="apps-container">
+            <div class="apps-box">
+                <i class='bx bxl-android'></i>
+                <h3>Android</h3>
+                <p>This online MBA in Healthcare Management aims at upskilling and updating professionals with the latest developments in the field of healthcare management.</p>
+                    <a href="#" class="bth">Read More</a>
+            </div>
+
+            <div class="apps-box">
+                <i class='bx bxs-mobile'></i>
+                <h3>Mobile</h3>
+                <p>In todays fast-paced world, managing your investments on the go has become more important than ever.With advancements in technology.</p>
+                    <a href="#" class="bth">Read More</a>
+            </div>
+
+            <div class="apps-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Creators</h3>
+                <p>This session demonstrates how to build a health care application with Zoho Creator where you can book appointments for patients, collect their records.</p>
+                    <a href="#" class="bth">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!--testimanials section design-->
+    <section class="service" id="service">
+        <h2 class="heading">Latest<span>service</span></h2>
+
+        <div class="testimanials-container">
+            <div class="testimanials-box">
+                <img src="{% static 'images/images_3.jpg' %}" alt="" height="160px">
+                <div class="testimanials-layer">
+                    <h4>Degital Health</h4>
+                    <p>Digital health transformation is the shift towards an ecosystem of tools like patient portals, telehealth, predictive analytics and medical AI.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="testimanials-box">
+                <img src="{% static 'images/images_4.jpg' %}" alt="" height="155px">
+                <div class="testimanials-layer">
+                    <h4>Health Informatics</h4>
+                    <p>which is also called health information systems, relies on information technology. Workers in the field organize and analyze health records to improve healthcare outcomes.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="testimanials-box">
+                <img src="{% static 'images/images_5.jpg' %}" alt="" height="160px">
+                <div class="testimanials-layer">
+                    <h4>Healthcare Policy</h4>
+                    <p>Between healthcare laws, accreditation requirements, licensing and certification standards, and more, hospitals must comply with many regulations and standards.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="testimanials-box">
+                <img src="{% static 'images/images_6.jpg' %}" alt="" height="160px">
+                <div class="testimanials-layer">
+                    <h4>Patient Safety</h4>
+                    <p>Policies and procedures for hospitals help hold employees accountable for following the right steps when caring for patients. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="testimanials-box">
+                <img src="{% static 'images/images_7.jpg' %}" alt="" height="160px">
+                <div class="testimanials-layer">
+                    <h4>Mental Health</h4>
+                    <p>Healthcare management jobs in the mental health field might involve supervising the entire mental health program for a large organization.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="testimanials-box">
+                <img src="{% static 'images/images_12.jpeg' %}" alt="" height="160px">
+                <div class="testimanials-layer">
+                    <h4>Medicine</h4>
+                    <p>Hospital Management System is a system enabling hospitals to manage information and data related to all aspects of healthcare – processes, providers, patients, and more.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Messaage" class="bth">
+        </form> 
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!--custom js-->
+    <script src="{% static 'javascript.js' %}"></script>
+</body>
+</html>
